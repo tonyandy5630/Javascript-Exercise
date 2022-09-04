@@ -1,14 +1,15 @@
 {
-  "name": "js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "callback.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.17.0"
-  }
+    "name": "js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "callback.js",
+    "scripts": {
+        "start": "json-server --watch json/db.json",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "json-server": "^0.17.0"
+    }
 }
